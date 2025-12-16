@@ -19,5 +19,14 @@ Usage:
 ## Notes
 Timing excludes gathering of local partitions and I/O.
 
-## Test results
+## Testing algorithm time results per rank
 ![test1](runs-1e6/strong_scaling_time.png)
+![test2](runs-1e7/strong_scaling_time.png)
+
+## Testing algorithm speedup by rank
+![test1](runs-1e6/strong_scaling_speedup.png)
+![test2](runs-1e7/strong_scaling_speedup.png)
+
+## Testing algorithm efficiency by rank
+![test1](runs-1e6/strong_scaling_efficiency.png)
+![test2](runs-1e7/strong_scaling_efficiency.png)
