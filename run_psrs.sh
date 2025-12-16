@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-# ---- config ----
+# config
 EXEC=./psrs_mpi
 METRICS=metrics.csv
 OUT=/dev/null
@@ -9,7 +9,7 @@ OUT=/dev/null
 Ns=(1000000 2000000 4000000 8000000 16000000)
 Ps=(1 2 3 4)
 
-# ---- create virtual python ----
+# set up virtual python
 if [ ! -d "venv" ]; then
   echo "Creating virtual environment..."
   python3 -m venv venv
@@ -22,7 +22,7 @@ fi
 
 echo "Using Python: $(which python)"
 
-# ---- run MPI experiments ----
+# MPI tests
 for p in "${Ps[@]}"; do
   for n in "${Ns[@]}"; do
     echo "Running PSRS: p=$p n=$n"
@@ -30,7 +30,7 @@ for p in "${Ps[@]}"; do
   done
 done
 
-# ---- plot after runs ----
+# plots based on python code
 echo "Plotting results..."
 python psrs_plot.py
 

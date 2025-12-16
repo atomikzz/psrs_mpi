@@ -322,7 +322,7 @@ int main(int argc, char **argv)
         printf("CSV write time: %f s\n", io_time);
     }
 
-    /* ---- Metrics logging (rank 0 only) ---- */
+    /* Logging metrics */
     if (rank == 0 && metrics_path)
     {
         int rc = append_metrics_csv(metrics_path,
