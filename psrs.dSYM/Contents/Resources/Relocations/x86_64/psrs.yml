@@ -1,0 +1,10 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/efehamamci/Desktop/desktop/cmpe/parallel/projects/psrs'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _sublists, symObjAddr: 0x0, symBinAddr: 0x100000630, symSize: 0x150 }
+  - { offset: 0x54, size: 0x8, addend: 0x0, symName: _sublists, symObjAddr: 0x0, symBinAddr: 0x100000630, symSize: 0x150 }
+  - { offset: 0x12E, size: 0x8, addend: 0x0, symName: _prsr, symObjAddr: 0x150, symBinAddr: 0x100000780, symSize: 0x510 }
+  - { offset: 0x385, size: 0x8, addend: 0x0, symName: _compare_int, symObjAddr: 0x660, symBinAddr: 0x100000C90, symSize: 0x60 }
+  - { offset: 0x3D7, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x6C0, symBinAddr: 0x100000CF0, symSize: 0x17B }
+...
