@@ -1,7 +1,5 @@
 *.o
 *.out
 *.log
-*.csv
-*.png
 __pycache__/
 build/
