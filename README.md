@@ -47,5 +47,5 @@ At larger N (e.g. 1.6e8), computation dominates more and scaling improves. Incre
 
 # References
 
-- Schaeffer et al., *Parallel Sorting by Regular Sampling*, 2022  
+- Schaeffer et al., *Parallel Sorting by Regular Sampling*, 2006  
   [PDF](https://webdocs.cs.ualberta.ca/~jonathan/publications/parrallel_computing_publications/psrs1.pdf)
